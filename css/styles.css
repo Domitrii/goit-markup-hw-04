@@ -223,7 +223,7 @@
   }
 
   .lione {
-    height: 112px;
+    width: calc((100% - 72px) / 4);
   }
 
   .lione-div{
@@ -237,6 +237,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 112px;
   }
 
   .lione-div svg {
